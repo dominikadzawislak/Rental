@@ -1,5 +1,5 @@
-//ProE Projekt 1 - Wypozyczalnia gier planszowych P1_9
-//Dominika Zawiœlak, grupa 2T2
+// Wypozyczalnia gier planszowych
+//Dominika Zawiœlak
 #include <string>
 #include "wypozyczalnia.h"
 #include "gra.h"
