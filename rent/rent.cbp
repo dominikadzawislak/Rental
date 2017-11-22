@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="include/gra.h" />
+		<Unit filename="include/grakieszonkowa.h" />
+		<Unit filename="include/klient.h" />
+		<Unit filename="include/status.h" />
+		<Unit filename="include/wypozyczalnia.h" />
+		<Unit filename="program.cpp" />
+		<Unit filename="src/gra.cpp" />
+		<Unit filename="src/grakieszonkowa.cpp" />
+		<Unit filename="src/klient.cpp" />
+		<Unit filename="src/status.cpp" />
+		<Unit filename="src/wypozyczalnia.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
